@@ -164,6 +164,9 @@ java -jar target/register-discord-0.0.1-SNAPSHOT.jar \
 
 ## Uso en Discord
 
+
+https://www.youtube.com/watch?v=KBQpEGJcHVU
+
 1. El bot debe estar en línea.
 2. En el servidor, `/registrar`.
 3. Completa usuario (3–16 alfanumérico), contraseña (6–16) y correo.
