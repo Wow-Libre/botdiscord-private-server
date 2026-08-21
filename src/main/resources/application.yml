@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: register-discord
+  main:
+    web-application-type: none
+
+discord:
+  bot:
+    enabled: ${DISCORD_BOT_ENABLED:true}
+    token: ${DISCORD_BOT_TOKEN:}
+    # Si se informa, el slash command se registra al instante en ese servidor.
+    guild-id: ${DISCORD_GUILD_ID:}
+
+wow:
+  # AzerothCore | TrinityCore
+  emulator: ${WOW_EMULATOR:AzerothCore}
+  realmlist: ${WOW_REALMLIST:set realmlist logon.example.com}
+
+soap:
+  uri: ${SOAP_URI:http://127.0.0.1:7878}
+  username: ${SOAP_USERNAME:}
+  password: ${SOAP_PASSWORD:}
+
+register:
+  cooldown-seconds: ${REGISTER_COOLDOWN_SECONDS:300}
+  failed-attempt-cooldown-seconds: ${REGISTER_FAILED_COOLDOWN_SECONDS:30}
+  max-attempts-per-hour: ${REGISTER_MAX_ATTEMPTS_PER_HOUR:3}
+  max-accounts-per-user: ${REGISTER_MAX_ACCOUNTS_PER_USER:1}
