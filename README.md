@@ -169,6 +169,20 @@ java -jar target/register-discord-0.0.1-SNAPSHOT.jar \
 3. Completa usuario (3–16 alfanumérico), contraseña (6–16) y correo.
 4. Recibirás un mensaje privado al comando (efímero) con el realmlist.
 
+
+## Evidencias
+
+
+
+https://github.com/user-attachments/assets/1cbb4e41-ce8a-4def-a663-2ac12ad49188
+
+
+## Jar compilado
+
+Descargar
+https://www.mediafire.com/file/4zeqhe355bciyyg/botwowlibre.jar/file
+
+
 ## Problemas frecuentes
 
 | Error | Qué revisar |
