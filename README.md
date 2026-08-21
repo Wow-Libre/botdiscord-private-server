@@ -182,25 +182,31 @@ https://github.com/user-attachments/assets/5f4f6eab-46bf-4587-a650-1e6a27d495f6
 
 
 
-## Jar compilado (Segundo metodo)
+## Jar compilado (Segundo método)
 
-Descargar
+Si no quieres compilar el proyecto en tu máquina, puedes usar el JAR ya empaquetado. Descárgalo desde MediaFire:
+
+[botwowlibre.jar](https://www.mediafire.com/file/4zeqhe355bciyyg/botwowlibre.jar/file)
+
 https://www.mediafire.com/file/4zeqhe355bciyyg/botwowlibre.jar/file
 
 ### Configurar variables de entorno
 
-En este video yo configure las variables de entorno de mi bot token que debes obtener de https://discord.com/developers
+Antes de ejecutar el JAR, define las variables de entorno del bot. El **token** se obtiene en el [Discord Developer Portal](https://discord.com/developers) (pestaña **Bot**, no el Client Secret).
 
-
+En el siguiente video se muestra cómo configurar las variables de entorno, incluido el token del bot:
 
 https://github.com/user-attachments/assets/1f07bb79-1689-4969-9b3b-f8c63841d641
 
+Cuando ya tengas:
 
+- las variables de entorno del bot (`DISCORD_BOT_TOKEN`, y si aplica `DISCORD_GUILD_ID`)
+- las credenciales SOAP (`SOAP_URI`, `SOAP_USERNAME`, `SOAP_PASSWORD`)
+- el SOAP del reino en ejecución, ya sea en tu VPS o en tu PC personal
 
-Una vez tengas lista las variables de entorno de tu bot y las credenciales del soap ejecutandose en tu vps o pc personal, procederemos a descargar el jar compilado
+puedes descargar el JAR compilado y arrancarlo.
 
-
-
+El siguiente video muestra ese paso (descarga del JAR compilado):
 
 https://github.com/user-attachments/assets/8851001d-20ec-4553-bbf1-5c8711eb856d
 
