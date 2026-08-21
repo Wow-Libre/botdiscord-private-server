@@ -174,13 +174,39 @@ java -jar target/register-discord-0.0.1-SNAPSHOT.jar \
 
 
 
-https://github.com/user-attachments/assets/1cbb4e41-ce8a-4def-a663-2ac12ad49188
 
 
-## Jar compilado
+https://github.com/user-attachments/assets/5f4f6eab-46bf-4587-a650-1e6a27d495f6
+
+
+
+
+
+## Jar compilado (Segundo metodo)
 
 Descargar
 https://www.mediafire.com/file/4zeqhe355bciyyg/botwowlibre.jar/file
+
+### Configurar variables de entorno
+
+En este video yo configure las variables de entorno de mi bot token que debes obtener de https://discord.com/developers
+
+
+
+https://github.com/user-attachments/assets/1f07bb79-1689-4969-9b3b-f8c63841d641
+
+
+
+Una vez tengas lista las variables de entorno de tu bot y las credenciales del soap ejecutandose en tu vps o pc personal, procederemos a descargar el jar compilado
+
+
+
+
+https://github.com/user-attachments/assets/8851001d-20ec-4553-bbf1-5c8711eb856d
+
+
+
+
 
 
 ## Problemas frecuentes
